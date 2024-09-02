@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilos do cabeçalho e navegação */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Estilos da seção Hero */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+/* Estilos para a seção de Introdução */
+.intro {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.intro ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.intro ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a seção de Serviços */
+.services {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.services h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Estilos para a página Sobre Mim */
+.about {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.about ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a página Formação */
+.education {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.education-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.education h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.education ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.education ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a página Portfólio */
+.portfolio {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.portfolio-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Estilos para a página Contato */
+.contact {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.contact h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
